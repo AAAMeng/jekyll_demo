@@ -2,13 +2,12 @@
 layout: default
 title: My First PHP Project
 ---
-<!DOCTYPE HTML>
-<html>
 <h2>{{ page.title }}</h2>
-<p>aaboard.php</p>
+<p>bbboard.php</p>
 
- <pre>
-
+ <xmp>
+ <!DOCTYPE HTML>
+ <html>
  <body style="background-color:Thistle">
  <h1 style ="background-color:PINK;
      color:white;
@@ -31,9 +30,10 @@ require_once("database.php");
 display_comment();
  
 ?>
- </pre>
 
  
 <p>{{ page.date | date_to_string }}</p> 
  </body>
 </html>
+ 
+ </xmp>
